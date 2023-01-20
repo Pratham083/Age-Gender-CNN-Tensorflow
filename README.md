@@ -2,9 +2,11 @@
 
 This project contains two notebooks I coded to create convolutional neural networks (CNN), one that predicts the age of a person, and the other that predicts the gender. The age CNN takes in a 200x200x3 pixel image (RGB), and the gender CNN takes in a 128x128x3 pixel image (RGB).
 
-The age prediction model had a mean absolute error of 5.00 years (on validation data of 3k images), and the gender prediction model had an accuracy of 95.32% (on validation data of 14k images).
+The age prediction model had a mean absolute error of 5.00 years (on validation data of 3k images). 
+![age loss image](age_loss.png)
 
-(show labelled x and y axis graphs)
+The gender prediction model had an accuracy of 95.32% (on validation data of 14k images).
+![gender accuracy image](gender_validation.png)
 
 ## Test the Models in the App
 
@@ -16,7 +18,7 @@ If you have an Android device and want to test out these models, you can downloa
 
 The data used for the age detection model was quite imbalanced, with higher quantities of data for people in the 1 to 2 year age range, as well as the mid-twenties to early-thirties age range.
 
-(show graph)
+![age distribution image](age_distribution.png)
 
 This imbalance initially resulted in the model favouring these age ranges when making predictions, which makes sense since it aims to minimize its loss. However, since I wanted to implement these models in an application, I needed to avoid this and create a more generalizable model. To do this I experimented with undersampling the data, however this increased the model's overall loss by too much. Thus, I settled on a simple solution of setting weights on the training data. Weights (not neural network weights) are multiplied by the loss of the model during training, so it influences how much an image given its age, affects the 'tuning' of the neural network. For this reason, I gave the age ranges with too much data weights of < 1, and the age ranges with too little data weights of > 1.
 
