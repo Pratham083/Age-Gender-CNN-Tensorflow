@@ -2,10 +2,10 @@
 
 This project contains two notebooks I coded to create convolutional neural networks (CNN), one that predicts the age of a person, and the other that predicts the gender. The age CNN takes in a 200x200x3 pixel image (RGB), and the gender CNN takes in a 128x128x3 pixel image (RGB).
 
-The age prediction model had a mean absolute error of 5.00 years (on validation data of 3k images). 
+The age prediction model had a mean absolute error of 5.00 years (on validation data of 3k images).  
 ![age loss image](images/age_loss.png)
 
-The gender prediction model had an accuracy of 95.32% (on validation data of 14k images).
+The gender prediction model had an accuracy of 95.32% (on validation data of 14k images).  
 ![gender accuracy image](images/gender_validation.png)
 
 ## Test the Models in the App
@@ -27,7 +27,7 @@ This wasn't a perfect fix, however the results showed that it did a decent job. 
 ## Model Architectures
 Both models followed the same model architecture, except for the input layer which took in different dimensions. (brief explanation of the layers)
 
-A graph of this model architecture can be seen below.
+A graph of this model architecture can be seen below.  
 ![architecture image](images/age_model_img.png)
 
 ## Data References
