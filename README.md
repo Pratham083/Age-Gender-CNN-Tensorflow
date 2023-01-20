@@ -13,6 +13,6 @@ If you have an Android device and want to test out these models, you can downloa
 ![architecture image](age_model_img.png)
 
 ## Data References
-[UTKface Dataset](https://www.kaggle.com/datasets/jangedoo/utkface-new)
-[IMDB-Wiki Face Dataset](https://www.kaggle.com/datasets/frabbisw/facial-age)
+[UTKface Dataset](https://www.kaggle.com/datasets/jangedoo/utkface-new)  
+[IMDB-Wiki Face Dataset](https://www.kaggle.com/datasets/frabbisw/facial-age)  
 [Gender Classification Dataset (IMDB)](https://www.kaggle.com/datasets/cashutosh/gender-classification-dataset)
