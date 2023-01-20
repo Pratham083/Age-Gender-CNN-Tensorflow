@@ -1,5 +1,9 @@
 # Age and Gender CNN using Tensorflow
 
+Pratham Patel
+
+## Overview
+
 This project contains two convolutional neural networks (CNNs) coded in Jupyter Notebooks, one that predicts the age of a person, and the other that predicts the gender. The age CNN takes in a 200x200x3 pixel image (RGB), and the gender CNN takes in a 128x128x3 pixel image (RGB).
 
 ### Age Model Results
