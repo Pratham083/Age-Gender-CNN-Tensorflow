@@ -6,13 +6,13 @@ This project contains two notebooks I coded to create convolutional neural netwo
 
 The age prediction model had a mean absolute error of 5.00 years (on validation data of 3k images).  
 
-<img src="images/age_loss.png" width="350" height="250" />
+<img src="images/age_loss.png" width="525" height="375" />
 
 ### Gender Model Results
 
 The gender prediction model had an accuracy of 95.32% (on validation data of 14k images).  
 
-<img src="images/gender_validation.png" width="600" height="300" />
+<img src="images/gender_validation.png" width="800" height="400" />
 
 ## Test the Models in the App
 
