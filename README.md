@@ -1,6 +1,6 @@
 # Age and Gender CNN using Tensorflow
 
-This project contains two notebooks I coded to create convolutional neural networks (CNN), one that predicts the age of a person, and the other that predicts the gender. The age CNN takes in a 200x200x3 pixel image (RGB), and the gender CNN takes in a 128x128x3 pixel image (RGB).
+This project contains two convolutional neural networks (CNNs) coded in Jupyter Notebooks, one that predicts the age of a person, and the other that predicts the gender. The age CNN takes in a 200x200x3 pixel image (RGB), and the gender CNN takes in a 128x128x3 pixel image (RGB).
 
 ### Age Model Results
 
@@ -31,9 +31,8 @@ This imbalance initially resulted in the model favouring these age ranges when m
 This wasn't a perfect fix, however the results showed that it did a decent job. The effectiveness of the model in the age ranges with lower weights was not compromised, while the effectiveness in other age groups (such as middle-aged and elderly) was improved. If I come back to this project and try to improve this model further, I would like to try oversampling the data and combining it with heavier image augmentations, to see if that is more effective at balancing the data.
 
 ## Model Architectures
-Both models followed the same model architecture, except for the input layer which took in different dimensions. (brief explanation of the layers)
+Both models followed the same model architecture, except for the input layer which took in different dimensions.
 
-A graph of this model architecture can be seen below.  
 ![architecture image](images/age_model_img.png)
 
 ## References
