@@ -20,7 +20,7 @@ The gender prediction model had an accuracy of 95.32% (on validation data of 14k
 
 ## Test the Models in the App
 
-If you have an Android device and want to test out these models, you can download the app [here](https://drive.google.com/drive/u/1/folders/1kc4odroRg1uSeyHHTRJhzGTzCYjsy8D8). The app also automatically detects and scales the face to input into the models.
+If you have an Android device and want to test out these models, you can download the app <a href="https://drive.google.com/drive/u/1/folders/1kc4odroRg1uSeyHHTRJhzGTzCYjsy8D8" target="_blank">here</a>. The app also automatically detects and scales the face to input into the models.
 
 <img src="images/app_ss.jpg" width="270" height="600" />
 
