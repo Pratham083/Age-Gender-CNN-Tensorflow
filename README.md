@@ -22,6 +22,9 @@ The gender prediction model had an accuracy of 95.32% (on validation data of 14k
 
 If you have an Android device and want to test out these models, you can download the app here.
 
+<img src="images/app_ss.jpg" width="560" height="1200" />
+
+
 (Show screenshots)
 
 ## Issues with the Data and Model
